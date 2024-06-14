@@ -1,3 +1,15 @@
+variable "waypoint_add_on" {
+  type        = string
+  description = "Waypoint add-on name."
+  default     = ""
+}
+
+variable "waypoint_add_on_definition" {
+  type        = string
+  description = "Waypoint add-on definition."
+  default     = ""
+}
+
 variable "prefix" {
   type        = string
   default     = "cosmos-db-autoscale"
